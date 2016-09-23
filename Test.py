@@ -7,6 +7,10 @@ Created on Thu Sep 15 21:40:03 2016
 
 import numpy as np
 
+
+#a new Test
+#bye
+
 class Test(object):
 
     def __init__(self, sizes):
@@ -29,11 +33,11 @@ class Test(object):
     def returnWeights(self):
         """Return the output of the network if ``a`` is input."""
         return self.weights
-        
+
     def returnBiases(self):
         return self.biases
-        
-        
+
+
 print("hello")
 
 m = [5,4,3,12]
